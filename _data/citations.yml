@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-05-22'
+  last_updated: '2026-06-05'
 papers:
   LSritLYAAAAJ:2osOgNQ5qMEC:
     citations: 1
     title: The effect of large optical depths on the non-Gaussian 21-cm signal from Cosmic Dawn
     year: '2025'
   LSritLYAAAAJ:9yKSN-GCB0IC:
-    citations: 2
+    citations: 3
     title: 'From ANN to BNN: Inferring reionization parameters using uncertainty-aware emulators of 21-cm summaries'
     year: '2025'
   LSritLYAAAAJ:IjCSPb-OGe4C:
@@ -26,6 +26,10 @@ papers:
     title: 'CosmoUiT: A Vision Transformer-UNet Hybrid for Fast and Accurate Emulation of 21-cm Maps from the Epoch of Reionization'
     year: '2025'
   LSritLYAAAAJ:u5HHmVD_uO8C:
-    citations: 14
+    citations: 15
     title: Impact of the Epoch of Reionization sources on the 21-cm bispectrum
     year: '2024'
+  LSritLYAAAAJ:zYLM7Y9cAGgC:
+    citations: 1
+    title: 'Probing Reionization up to the Mark: The Marked Power Spectrum to unveil the HI 21-cm signal from the EoR'
+    year: '2026'
