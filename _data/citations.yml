@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-06-08'
 papers:
   LSritLYAAAAJ:2osOgNQ5qMEC:
     citations: 1
     title: The effect of large optical depths on the non-Gaussian 21-cm signal from Cosmic Dawn
     year: '2025'
   LSritLYAAAAJ:9yKSN-GCB0IC:
-    citations: 3
+    citations: 4
     title: 'From ANN to BNN: Inferring reionization parameters using uncertainty-aware emulators of 21-cm summaries'
     year: '2025'
   LSritLYAAAAJ:IjCSPb-OGe4C:
@@ -22,7 +22,7 @@ papers:
     title: "Ultraviolet photon production rates of the first stars: Impact on the He\u2009ii \u03BB 1640 \xC5 emission line from primordial star clusters and the 21-cm signal from cosmic dawn"
     year: '2026'
   LSritLYAAAAJ:qjMakFHDy7sC:
-    citations: 0
+    citations: 1
     title: 'CosmoUiT: A Vision Transformer-UNet Hybrid for Fast and Accurate Emulation of 21-cm Maps from the Epoch of Reionization'
     year: '2025'
   LSritLYAAAAJ:u5HHmVD_uO8C:
