@@ -7,7 +7,7 @@ subtitle:
 profile:
   align: right
   image: leon_profile.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: True # crops the image to make it circular
   more_info: >
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
