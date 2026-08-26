@@ -10,34 +10,23 @@ nav_order: 2
 <!-- _pages/publications.md -->
 
 <!-- Publication summary -->
-<div class="row text-center mb-4">
-  <div class="col-6 col-md-3 mb-3">
-    <div class="card h-100">
-      <div class="card-body">
+<div class="card mb-4">
+  <div class="card-body">
+    <h4 class="card-title text-center mb-4">Summary of Publications</h4>
+    <div class="row text-center">
+      <div class="col-6 col-md-3 mb-3 mb-md-0">
         <h2 class="mb-0">2</h2>
         <div class="text-muted">First-author publications</div>
       </div>
-    </div>
-  </div>
-  <div class="col-6 col-md-3 mb-3">
-    <div class="card h-100">
-      <div class="card-body">
+      <div class="col-6 col-md-3 mb-3 mb-md-0">
         <h2 class="mb-0">1</h2>
         <div class="text-muted">Second-author publications</div>
       </div>
-    </div>
-  </div>
-  <div class="col-6 col-md-3 mb-3">
-    <div class="card h-100">
-      <div class="card-body">
+      <div class="col-6 col-md-3">
         <h2 class="mb-0">5</h2>
         <div class="text-muted">Significant contribution</div>
       </div>
-    </div>
-  </div>
-  <div class="col-6 col-md-3 mb-3">
-    <div class="card h-100">
-      <div class="card-body">
+      <div class="col-6 col-md-3">
         <h2 class="mb-0">4</h2>
         <div class="text-muted">SKAO "Advancing Astrophysics II" book chapters</div>
       </div>
