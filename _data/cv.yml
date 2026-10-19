@@ -1,9 +1,255 @@
-- title: General Information
+- title: Contact
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Leon Noble
-    - name: Date of Birth
-      value: 16/09/1998
+    - name: Position
+      value: DST INSPIRE Fellow (PhD student) &amp; ICTP STEP Fellow
+    - name: Affiliation
+      value: Department of Astronomy, Astrophysics and Space Engineering (DAASE), Indian Institute of Technology Indore, Indore-453552, M.P., India
+    - name: Email
+      value: <a href="mailto:leonnoblek@gmail.com">leonnoblek@gmail.com</a>, <a href="mailto:phd2201121004@iiti.ac.in">phd2201121004@iiti.ac.in</a>
     - name: Languages
       value: English, Malayalam, Hindi
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Astronomy
+      institution: Indian Institute of Technology Indore (IIT Indore), India
+      department: Department of Astronomy, Astrophysics and Space Engineering
+      year: 2022 – 2027
+      description:
+        - "Thesis title: Probing the High-Redshift Universe Using Multi-Line Intensity Mapping and Cross-Correlations"
+        - 'Supervisor: <a href="https://people.iiti.ac.in/~sumanm/">Dr. Suman Majumdar</a>'
+        - Expected July 2027
+    - title: M.Sc. Physics (CGPA 9/10)
+      institution: National Institute of Technology Karnataka (NITK), Mangaluru, India
+      year: 2019 – 2021
+      description:
+        - "Thesis: “Numerical Investigation of Inflationary Scenario”, supervised by Dr. V. Sreenath"
+    - title: B.Sc. Physics (CGPA 9.6/10)
+      institution: Sacred Heart College Thevara, Kochi, Kerala, India
+      year: 2016 – 2019
+
+
+- title: Fellowships & Awards
+  type: time_table
+  contents:
+    - title: ICTP STEP Fellowship
+      year: 2024 – 2026
+      description:
+        - 'To visit ICTP and SISSA, and collaborate with <a href="https://people.sissa.it/~viel/">Prof. Matteo Viel</a> (SISSA) and researchers in the Trieste area'
+    - title: DST INSPIRE Fellowship, Department of Science and Technology, Government of India
+      year: 2023 – now
+      description:
+        - Feb 2023 – Present. Covers PhD salary and a research grant
+    - title: Best Speaker Award, Young Astronomer’s Meet 2025, IIT (BHU) Varanasi, India
+      year: 2025
+      description:
+        - Dec 2025
+    - title: DST INSPIRE Scholarship, Department of Science and Technology, Government of India
+      year: 2016 – 2021
+      description:
+        - For a constant 5 year contract during B.Sc and M.Sc (80,000 INR per annum)
+
+- title: Travel Grants
+  type: list
+  contents:
+    - '<b>Simons Foundation</b> — To attend “New Frontiers in Cosmology 2026”, A Coruña, Spain <i>(Aug 2026)</i>'
+    - '<b>SKA-India Consortium (SKAIC)</b> — To attend “A New Era in Astrophysics: Preparing for Early Science with the SKAO”, Görlitz, Germany <i>(Jun 2025)</i>'
+    - '<b>ICTP</b> — To attend “ICTP Summer School on Cosmology”, Trieste, Italy <i>(Jun 2024)</i>'
+
+- title: Research Visits
+  type: time_table
+  contents:
+    - title: International Centre for Theoretical Physics (ICTP) &amp; Scuola Internazionale Superiore di Studi Avanzati (SISSA)
+      institution: Trieste, Italy
+      year: 2024 – 2026
+      description:
+        - "31 Aug 2026 – 17 Nov 2026; 15 May 2025 – 10 Aug 2025; 28 Oct 2024 – 19 Dec 2024; 17 Jun 2024 – 5 Jul 2024"
+        - 'Visiting researcher with <a href="https://people.sissa.it/~viel/">Prof. Matteo Viel</a>. Four extended visits between Jul 2024 – Nov 2026 (≈9 months total) as part of ICTP STEP fellowship'
+    - title: Scuola Normale Superiore (SNS)
+      institution: Pisa, Italy
+      year: 2024
+      description:
+        - 8 – 12 Jul 2024
+        - Research collaborator with Prof. Andrei Mesinger
+
+- title: Leadership & Collaboration
+  type: list
+  contents:
+    - '<b>Co-lead, HIstorian team</b> — SKA Data Challenge 3b: Inference, we were placed in the leaderboard'
+    - '<b>Associate member</b>, SKA Cosmic Dawn-Epoch of Reionization Science Working Group'
+    - '<b>Associate member</b>, SKA Cosmology Science Working Group'
+    - '<b>Co-author of four SKAO science white book (AASKA II) chapters</b>, <i>Advancing Astrophysics with the Square Kilometre Array II</i> (AASKA II), 2026'
+
+- title: Technical Skills
+  type: nested_list
+  contents:
+    - title: Computing time awarded
+      items:
+        - 10k CPU-hours in Pegasus (IUCAA) (PI, 2024)
+        - '10k CPU-hours in <a href="https://www.cscs.ch/computers/alps">CSCS Alps</a> (Co-PI, 2024–25)'
+    - title: Simulations developed
+      items:
+        - 'Cross-bispectrum estimator for all unique triangles (used in <a href="https://arxiv.org/abs/2604.15440">arXiv:2604.15440</a>)'
+        - GPU-accelerated multi-line intensity mapping simulations (21 cm, CII, CO)
+        - SBI pipeline for multi-line intensity mapping and their cross-correlations
+    - title: Cosmological simulations used
+      items:
+        - '<a href="https://github.com/leonnoble/ReionYuga">ReionYuga</a>, <a href="https://github.com/21cmfast/21cmFAST">21cmFAST</a>; <a href="https://github.com/leonnoble/N-body">Particle-Mesh N-body</a>, <a href="https://github.com/rainwoodman/fastpm">FastPM</a>; <a href="https://github.com/chandra-001/LIM_simulator">LIM simulator</a>'
+    - title: Inference & cosmology packages used
+      items:
+        - polychord, PyMultiNest, Cobaya, emcee, CosmoMC, CAMB
+    - title: HPC facilities used
+      items:
+        - '<a href="https://www.cscs.ch/computers/alps">CSCS Alps</a>, Pegasus (IUCAA), Jamadagni (IIT Indore), NVIDIA DGX A100 Server (IIT Indore)'
+    - title: Languages & tools
+      items:
+        - Python, C++, C; Git; Docker, Singularity
+
+# - title: Publications
+#   type: nested_list
+#   contents:
+#     - title: Profiles
+#       items:
+#         - '<b>INSPIRE-HEP:</b> <a href="https://inspirehep.net/authors/2967305?ui-citation-summary=true">https://inspirehep.net/authors/2967305</a>'
+#         - '<b>Google Scholar:</b> <a href="https://scholar.google.com/citations?user=LSritLYAAAAJ&amp;hl=en">Leon Noble</a>'
+#         - '<b>arXiv:</b> <a href="https://arxiv.org/a/noble_l_1.html">https://arxiv.org/a/noble_l_1.html</a>'
+#         - '<b>ORCiD:</b> <a href="https://orcid.org/0009-0004-3138-1130">0009-0004-3138-1130</a>'
+#     - title: As first author
+#       items:
+#         - 'L. Noble, S. Majumdar, M. Viel, F. Fontanot, G. De Lucia, A. K. Shaw, M. Spinelli, M. Kamran, L. Xie, M. Hirschmann, <i>Probing the large-scale structure with 21cm-galaxy cross-bispectrum: Estimates from simulations and forecasts for upcoming cosmological surveys</i>, 2026, <a href="https://arxiv.org/abs/2604.15440">ApJ, 1005, 218</a>'
+#         - 'L. Noble, M. Kamran, S. Majumdar, C. S. Murmu, R. Ghara, G. Mellema, I. T. Iliev, J. R. Pritchard, <i>Impact of the sources of Epoch of Reionization on the 21-cm bispectrum</i>, 2024, <a href="https://doi.org/10.1088/1475-7516/2024/10/003">JCAP10(2024)003</a>'
+#         - 'L. Noble, Y. Mahida, S. Majumdar, M. M. Dosibhatla, <i>21-cm–[C II] cross-correlations: improving constraints on EoR source parameters with the SKAO in a simulation-based inference framework</i> (in prep., to be submitted to ApJ)'
+#     - title: As second author
+#       items:
+#         - 'V. Pandya, L. Noble, S. Majumdar, D. Sarkar, M. Kamran, A. Datta, <i>Probing Reionization up to the Mark: The Marked Power Spectrum to unveil the HI 21-cm signal from the EoR</i> (under review, JCAP), <a href="https://arxiv.org/abs/2605.18301">arXiv:2605.18301</a>'
+#     - title: With significant contribution
+#       items:
+#         - 'I. Nasreen, K. K. Datta, A. K. Shaw, L. Noble, R. Ghara, Sk. S. Ali, A. Mishra, M. Kamran, S. Majumdar, <i>The Effect of Large Optical Depths on the Non-Gaussian 21-cm signal from Cosmic Dawn</i>, 2025, <a href="https://doi.org/10.1093/mnras/staf1584">MNRAS, 543, 2553</a>'
+#         - 'J. Wasserman, E. Zackrisson, J. Dhandha, A. Fialkov, L. Noble, S. Majumdar, <i>Ultraviolet photon production rates of the first stars: Impact on the He II λ1640 Å emission line from primordial star clusters and the 21-cm signal from cosmic dawn</i>, 2026, MNRAS, 547, stag386'
+#         - 'Y. Mahida, S. K. Yadav, S. Majumdar, L. Noble, C. S. Murmu, S. Dasgupta, S. Dutta, H. Tiwari, A. K. Shaw, <i>From ANN to BNN: Inferring Reionization Parameters using Uncertainty-aware Emulators of 21-cm Summaries</i>, 2025, <a href="https://doi.org/10.1088/1475-7516/2025/12/055">JCAP12(2025)055</a>'
+#         - 'P. R. Posture, Y. Mahida, S. Majumdar, L. Noble, <i>CosmoUiT: A Vision Transformer-UNet Hybrid for Fast and Accurate Emulation of 21-cm Maps from the Epoch of Reionization</i>, 2026, JCAP06(2026)011'
+#         - 'H. Potluri, M. M. Dosibhatla, L. Noble, C. S. Murmu, S. Majumdar, S. K. Pal, S. Dasgupta, S. Bag, A. Datta, <i>Interpreting the HI 21-cm cosmology maps through Largest Cluster Statistics III: Impact of the lightcone effect</i> (under review, JCAP), <a href="https://arxiv.org/abs/2602.16651">arXiv:2602.16651</a>'
+#     - title: SKAO chapters — co-author of four chapters of Advancing Astrophysics with the Square Kilometre Array II (AASKA II), 2026
+#       items:
+#         - 'S. Majumdar, D. Sarkar, L. Noble, M. M. Dosibhatla, et al., <i>Cosmology with Intensity Mapping via Statistics Beyond the Power Spectrum in the SKAO Era</i>, AASKAII/Majumdar01, <a href="https://arxiv.org/abs/2606.30200">arXiv:2606.30200</a>'
+#         - 'D. Sarkar, S. Majumdar, C. S. Murmu, L. Noble, et al., <i>Cosmology with Multi-Wavelength Line Intensity Mapping Synergies in the SKAO Era</i>, AASKAII/Sarkar01, <a href="https://arxiv.org/abs/2606.30224">arXiv:2606.30224</a>'
+#         - 'A. Acharya, S. Bag, S. Berger, M. Bianco, et al., including L. Noble, <i>Inferring Cosmology and Astrophysics from the High-redshift 21cm Signal with SKA-Low</i>, AASKAII/Acharya01, <a href="https://arxiv.org/abs/2606.27858">arXiv:2606.27858</a>'
+#         - 'G. Bernardi, D. Breitman, A. Datta, A. Fialkov, et al., including L. Noble, <i>Overview of 21cm Experiments at High Redshift with SKAO</i>, AASKAII/Trott01, <a href="https://arxiv.org/abs/2606.26435">arXiv:2606.26435</a>'
+
+- title: Presentations
+  type: nested_list
+  contents:
+    - title: Conference talks
+      items:
+        - '<i>21cm-CII cross-correlations: Improving the constraints on EoR source parameters via SKA</i>, <b>Square Kilometer Array Epoch of Reionization Science Team meeting 2026</b>, Palata Nauke, Belgrade, Serbia. 7–11 Sep 2026'
+        - '<i>The 21cm-Galaxy Cross-Bispectrum: A Forecast for Synergies between SKA-Mid and Galaxy Surveys</i>, <b>Workshop on 21-cm Cosmology</b>, TIFR Mumbai, India. 9–11 Mar 2026'
+        - '<i>The 21cm-Galaxy Cross-Bispectrum: A Forecast for Synergies between SKA-Mid and Galaxy Surveys</i>, <b>Cosmology at Multiwavelength</b>, IIT Indore, India. 10–11 Feb 2026'
+        - '<i>SKAO-Euclid Synergies of the post-Reionization Universe: 21cm-Galaxy Cross-Bispectrum</i>, <b>Young Astronomers’ Meet 2025</b>, IIT (BHU) Varanasi, India. 5–7 Dec 2025'
+        - '<i>SKAO-Euclid Synergies of the post-Reionization Universe: 21cm-Galaxy Cross-Bispectrum</i>, <b>A New Era in Astrophysics: Preparing for Early Science with the SKAO</b>, Görlitz, Germany. 16–20 Jun 2025'
+        - '<i>SKAO-Euclid Synergies of the post-Reionization Universe: 21cm-Galaxy Cross-Bispectrum</i>, <b>Line Intensity Mapping 2025</b>, LAPTh Annecy, France. 2–6 Jun 2025'
+        - '<i>Reionization and Beyond via Higher-Order Statistics of 21-cm Maps</i>, <b>Radio Cosmology and Continuum Observations in the SKA Era: A Synergic View</b>, ICTS Bengaluru, India. 7–11 Apr 2025'
+        - '<i>SKAO-Euclid Synergies of the post-Reionization Universe: 21cm-Galaxy Cross-Bispectrum</i>, <b>Cosmology with SKA and Beyond</b>, IIT Indore, India. 1–2 Apr 2025'
+        - '<i>Reionization via Higher-Order Statistics of Line Intensity Mapping</i>, <b>The Multi-Color Universe: A New Era with Line Intensity Mapping</b>, IWH, Heidelberg University, Germany. 2–5 Dec 2024'
+        - '<i>Impact of the Sources of Epoch of Reionization on the 21-cm Bispectrum</i>, <b>SKA Cosmic Dawn and Epoch of Reionization Science Team Meeting 2024</b>, Tsinghua University, Beijing, China (remote). 17–19 Jul 2024'
+        - '<i>Impact of the Sources of Epoch of Reionization on the 21-cm Bispectrum</i>, <b>ICTP Summer School on Cosmology</b>, ICTP Trieste, Italy. 17–28 Jun 2024'
+        - '<i>Impact of the Sources of Epoch of Reionization on the 21-cm Bispectrum</i>, <b>10th International Conference on Gravitation and Cosmology: New Horizons and Singularities in Gravity</b>, IIT Guwahati, India. 6–9 Dec 2023'
+        - '<i>A Numerical Investigation of the Inflationary Scenario in the Light of Planck</i>, <b>Seventh Southern Regional Astronomy Meeting: Research in Astronomy — Opportunities and Challenges</b>, (remote). 8–10 Sep 2021'
+    - title: Seminars
+      items:
+        - '<i>Impact of the Sources of Epoch of Reionization on the 21-cm Bispectrum</i>, <b>Scuola Normale Superiore (SNS)</b>, Pisa, Italy. 9 Jul 2024'
+        - '<i>Impact of the Sources of Epoch of Reionization on the 21-cm Bispectrum</i>, <b>Institute for Fundamental Physics of the Universe (IFPU)</b>, Trieste, Italy. 1 Jul 2024'
+        - '<i>Impact of the sources of Epoch of Reionization on the 21-cm bispectrum</i>, <b>SKA India 21-cm CD/EoR Bi-weekly Meeting</b>, (remote). 15 Apr 2024'
+    - title: Lightning talks and posters
+      items:
+        - '<i>Probing the Large-scale Structure with 21cm-Galaxy Cross-bispectrum</i>, <b>New Frontiers in Cosmology 2026</b>, A Coruña, Spain (fireslide and poster). 10–14 Aug 2026'
+        - '<i>The 21cm-Galaxy Cross-Bispectrum: A Forecast for Synergies between SKA-Mid and Galaxy Surveys</i>, <b>SKA-India Science Meeting</b>, IISER Mohali, India (lightning talk and poster). 15–18 Jan 2026'
+        - '<i>21cm-CII cross-correlations: Improving the constraints on EoR source parameters via SKA</i>, <b>A New Era in Astrophysics: Preparing for Early Science with the SKAO</b>, Görlitz, Germany (lightning talk and poster). 16–20 Jun 2025'
+        - '<i>Impact of the Sources of Epoch of Reionization on the 21-cm Bispectrum</i>, <b>7th Global 21-cm Workshop</b>, RRI Bengaluru, India (lightning talk and poster). 30 Sep – 4 Oct 2024'
+        - '<i>Impact of the Sources of Epoch of Reionization on the 21-cm Bispectrum</i>, <b>Advanced 21-cm Cosmology Workshop</b>, NISER Bhubaneswar, India (poster). 18–21 Dec 2023'
+
+# - title: Fellowships & Awards
+#   type: time_table
+#   contents:
+#     - title: ICTP STEP Fellowship
+#       year: 2024 – 2026
+#       description:
+#         - 'To visit ICTP and SISSA, and collaborate with <a href="https://people.sissa.it/~viel/">Prof. Matteo Viel</a> (SISSA) and researchers in the Trieste area'
+#     - title: DST INSPIRE Fellowship, Department of Science and Technology, Government of India
+#       year: 2023 – now
+#       description:
+#         - Feb 2023 – Present. Covers PhD salary and a research grant
+#     - title: Best Speaker Award, Young Astronomer’s Meet 2025, IIT (BHU) Varanasi, India
+#       year: 2025
+#       description:
+#         - Dec 2025
+#     - title: DST INSPIRE Scholarship, Department of Science and Technology, Government of India
+#       year: 2016 – 2021
+#       description:
+#         - For a constant 5 year contract during B.Sc and M.Sc (80,000 INR per annum)
+
+# - title: Travel Grants
+#   type: list
+#   contents:
+#     - '<b>Simons Foundation</b> — To attend “New Frontiers in Cosmology 2026”, A Coruña, Spain <i>(Aug 2026)</i>'
+#     - '<b>SKA-India Consortium (SKAIC)</b> — To attend “A New Era in Astrophysics: Preparing for Early Science with the SKAO”, Görlitz, Germany <i>(Jun 2025)</i>'
+#     - '<b>ICTP</b> — To attend “ICTP Summer School on Cosmology”, Trieste, Italy <i>(Jun 2024)</i>'
+
+# - title: Research Visits
+#   type: time_table
+#   contents:
+#     - title: International Centre for Theoretical Physics (ICTP) &amp; Scuola Internazionale Superiore di Studi Avanzati (SISSA)
+#       institution: Trieste, Italy
+#       year: 2024 – 2026
+#       description:
+#         - "31 Aug 2026 – 17 Nov 2026; 15 May 2025 – 10 Aug 2025; 28 Oct 2024 – 19 Dec 2024; 17 Jun 2024 – 5 Jul 2024"
+#         - 'Visiting researcher with <a href="https://people.sissa.it/~viel/">Prof. Matteo Viel</a>. Four extended visits between Jul 2024 – Nov 2026 (≈9 months total) as part of ICTP STEP fellowship'
+#     - title: Scuola Normale Superiore (SNS)
+#       institution: Pisa, Italy
+#       year: 2024
+#       description:
+#         - 8 – 12 Jul 2024
+#         - Research collaborator with Prof. Andrei Mesinger
+
+# - title: Leadership & Collaboration
+#   type: list
+#   contents:
+#     - '<b>Co-lead, HIstorian team</b> — SKA Data Challenge 3b: Inference, we were placed in the leaderboard'
+#     - '<b>Associate member</b>, SKA Cosmic Dawn-Epoch of Reionization Science Working Group'
+#     - '<b>Associate member</b>, SKA Cosmology Science Working Group'
+#     - '<b>Co-author of four SKAO science white book (AASKA II) chapters</b>, <i>Advancing Astrophysics with the Square Kilometre Array II</i> (AASKA II), 2026'
+
+# - title: Technical Skills
+#   type: nested_list
+#   contents:
+#     - title: Computing time awarded
+#       items:
+#         - 10k CPU-hours in Pegasus (IUCAA) (PI, 2024)
+#         - 10k CPU-hours in CSCS Alps (Co-PI, 2024–25)
+#     - title: Simulations developed
+#       items:
+#         - 'Cross-bispectrum estimator for all unique triangles (used in <a href="https://arxiv.org/abs/2604.15440">arXiv:2604.15440</a>)'
+#         - GPU-accelerated multi-line intensity mapping simulations (21 cm, CII, CO)
+#         - SBI pipeline for multi-line intensity mapping and their cross-correlations
+#     - title: Cosmological simulations used
+#       items:
+#         - ReionYuga, 21cmFAST; Particle-Mesh N-body, FastPM; LIM simulator
+#     - title: Inference & cosmology packages used
+#       items:
+#         - polychord, PyMultiNest, Cobaya, emcee, CosmoMC, CAMB
+#     - title: HPC facilities used
+#       items:
+#         - CSCS Alps, Pegasus (IUCAA), Jamadagni (IIT Indore), NVIDIA DGX A100 Server (IIT Indore)
+#     - title: Languages & tools
+#       items:
+#         - Python, C++, C; Git; Docker, Singularity
+
+# - title: Teaching
+#   type: list
+#   contents:
+#     - 'Teaching Assistant, tutorials on <i>Hands-on with Reionization Simulations &amp; Statistical Inference from Cosmological Signal</i>, <b>School on Radio Cosmology and Continuum Observations in the SKA Era</b>, ICTS Bengaluru, India, 14–18 Apr 2025'
+#     - 'Teaching Assistant, <i>AA 471/671: Relativity and Cosmology</i>, Autumn 2024 &amp; 2023'
+#     - 'Teaching Assistant, <i>AA 608: Astrostatistics</i>, Spring 2024 &amp; 2025'
