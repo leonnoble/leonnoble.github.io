@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/research/";
           },
         },{id: "nav-technical-skills",
-          title: "Technical Skills",
+          title: "technical skills",
           description: "",
           section: "Navigation",
           handler: () => {
