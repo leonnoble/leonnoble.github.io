@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a DST INSPIRE Fellow (PhD student) at the Indian Institute of Technology Indore, working with Dr. Suman Majumdar. I am also an ICTP STEP Fellow advised by Prof. Matteo Viel at SISSA, Trieste, Italy. I work at the intersection of theory and observations, developing novel statistical tools to probe the Epoch of Reionization and post-Reionization Epoch via multi-line intensity mapping and cross-correlations with galaxy surveys.
+I am a [DST INSPIRE Fellow](https://www.online-inspire.gov.in/) (PhD student) at the Indian Institute of Technology Indore, working with [Dr. Suman Majumdar](https://people.iiti.ac.in/~sumanm/). I am also an [ICTP STEP Fellow](https://www.ictp.it/opportunity/ictpiaea-sandwich-training-education-programme) advised by [Prof. Matteo Viel](https://people.sissa.it/~viel/) at SISSA, Trieste, Italy. I work at the intersection of theory and observations, developing novel statistical tools to probe the Epoch of Reionization and post-Reionization Epoch via multi-line intensity mapping and cross-correlations with galaxy surveys.
