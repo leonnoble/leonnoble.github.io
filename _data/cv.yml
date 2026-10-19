@@ -101,7 +101,7 @@
         - '<a href="https://github.com/leonnoble/ReionYuga">ReionYuga</a>, <a href="https://github.com/21cmfast/21cmFAST">21cmFAST</a>; <a href="https://github.com/leonnoble/N-body">Particle-Mesh N-body</a>, <a href="https://github.com/rainwoodman/fastpm">FastPM</a>; <a href="https://github.com/chandra-001/LIM_simulator">LIM simulator</a>'
     - title: Inference & cosmology packages used
       items:
-        - polychord, PyMultiNest, Cobaya, emcee, CosmoMC, CAMB
+        - '<a href="https://github.com/PolyChord/PolyChordLite">polychord</a>, <a href="https://github.com/JohannesBuchner/PyMultiNest">PyMultiNest</a>, <a href="https://github.com/CobayaSampler/cobaya">Cobaya</a>, <a href="https://github.com/dfm/emcee">emcee</a>, <a href="https://github.com/cmbant/CosmoMC">CosmoMC</a>, <a href="https://github.com/cmbant/CAMB">CAMB</a>'
     - title: HPC facilities used
       items:
         - '<a href="https://www.cscs.ch/computers/alps">CSCS Alps</a>, Pegasus (IUCAA), Jamadagni (IIT Indore), NVIDIA DGX A100 Server (IIT Indore)'

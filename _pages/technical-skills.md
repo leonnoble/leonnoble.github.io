@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /technical-skills/
-title: Technical Skills
+title: technical skills
 description:
 nav: true
 nav_order: 4
@@ -24,7 +24,7 @@ nav_order: 4
 
 ### Inference & cosmology packages used
 
-polychord, PyMultiNest, Cobaya, emcee, CosmoMC, CAMB
+[polychord](https://github.com/PolyChord/PolyChordLite), [PyMultiNest](https://github.com/JohannesBuchner/PyMultiNest), [Cobaya](https://github.com/CobayaSampler/cobaya), [emcee](https://github.com/dfm/emcee), [CosmoMC](https://github.com/cmbant/CosmoMC), [CAMB](https://github.com/cmbant/CAMB)
 
 ### HPC facilities used
 
